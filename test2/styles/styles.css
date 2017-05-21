@@ -1,0 +1,224 @@
+body {
+    background-size: cover;
+    min-height: 100%;
+    background-color: #34495e;
+    color: #d6dadc;
+}
+a{
+    color: #d6dadc;
+    text-decoration: none;
+}
+header{
+    background-color: white;
+    height: 290px;
+}
+footer{
+    background-color: white;
+}
+.header_container{
+    margin: 0 auto;
+    width: 1170px;
+    height: 100%;
+    box-sizing: border-box;
+}
+.header_container > div > div.fl_left:first-child{
+    margin-top: 14px;
+}
+.logo{
+    margin-right: 10px;
+}
+.header_container li{
+    float: left;
+}
+nav {
+    float: right;
+}
+.clear_both {
+    clear: both;
+}
+li {
+    list-style-type: none;
+}
+.header_container li{
+    padding: 11px 16px;
+}
+.img_header_nav{
+    padding: 0; !important;
+}
+.header_container li:hover:not(:last-child){
+    background: #1abc9c;
+    border-radius: 4px;
+}
+.header_container ul li:hover a:not(.img_header_nav){
+    color: white;
+}
+.header_container ul li:last-child{
+    padding-right: 0;
+}
+.header_container ul li a {
+    text-decoration: none;
+    color: #d6dadc;
+    font-size: 15px;
+    font-weight: bold;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+}
+
+.bottom_text p:not(:first-child),#main_column ul li{
+    display: inline;
+}
+.header_container div{
+    margin-bottom: 50px;
+}
+
+.fl_right{
+    float: right;
+}
+
+.fl_left{
+    float: left;
+}
+
+
+
+/*.header_container>div+div{ ne pracye :not:(first-child), nth   child
+    font-size: 15px;
+    bottom: 25px;
+    position:absolute;
+}
+.bottom_text{
+    right: 0;
+}
+.bottom_text p a{
+    margin: 0 3px 20px 0; !important;
+    text-decoration: none; звідки тут з"явився текст декорейшин
+}*/
+#main_column{
+    height: 100%;
+    position: relative;
+}
+#main_column li+li:before{
+    content: "/";
+    font-size: 10px;
+    margin-right:3px;
+}
+#main_column,.bottom_information{
+    margin: 0 auto;
+    width: 1170px;
+}
+#main_column ul li a{
+    text-decoration: none;
+    font-size: 10px;
+    top: 0;
+}
+#main_column ul{
+   display: block;
+   text-align: center;
+}
+.column_group {
+    width: 1170px;
+    font-size: 0;
+}
+.column{
+    display: inline-block;
+    vertical-align: top;
+}
+#main_column img, footer .column{
+    width:270px;
+}
+#main_column img{
+    height:180px;
+}
+#main_column img:hover{
+    background: #131c25;
+    opacity: 0.3;
+}
+footer .column{
+    min-height:180px;
+}
+/*.column img:not(:nth-child(4n+4)){
+    margin-right:19px;
+}*/
+.column {
+    margin-right: 30px;
+}
+.column_without_margin{
+    margin-right: 0; !important;
+}
+.column_without_margin img:hover{
+    outline: 2px solid green;
+}
+#main_column p{
+    font-size: 16px;
+    text-align: center;
+    line-height: 18px;
+}
+#main_column p:last-child{
+    font-size: 12px;
+}
+footer{
+    bottom:0;
+}
+footer .column{
+    margin-bottom: 100px;
+}
+footer .column p:first-child {
+    font-size: 16px;
+    line-height: 24px;
+}
+footer .column p{
+    font-size: 13px;
+}
+footer .column img{
+    margin-right: 2px;
+}
+footer .column_group{
+    margin: 0 auto;
+    border-bottom: 1px solid;
+}
+.nav_in_first_column img:first-child{
+    height: 36px;
+}
+footer .column_without_margin img{
+    width: 58px;
+    height: 48px;
+    display: inline-block;
+    margin: 0 5px 5px 0;
+}
+.bottom_information li{
+    display: inline-block;
+    text-decoration: none;
+}
+.bottom_information div{
+    text-align: right;
+}
+.bottom_information span, .bottom_information div{
+    display: inline-block;
+    margin: 20px 0;
+    font-size: 12px;
+}
+.bottom_information span{
+    margin-right: 652px;
+}
+.nav_in_first_column .fa {
+    font-size: 18px;
+    color: #bdc3c7;
+    vertical-align: middle;
+}
+.nav_in_first_column i{
+    text-align: center; /*chu mo*na pusatu v .fa i chomy*/
+    background-color: #ecf0f1;
+    width: 42px;
+    line-height:36px;
+    margin-right: 2px;
+    border-radius: 2px;
+}
+.nav_in_first_column i:hover{
+    background: #00acee;
+}
+.nav_in_first_column .fa:hover{
+    color: white;
+}
+.column_group a{
+    display: inline;
+}
